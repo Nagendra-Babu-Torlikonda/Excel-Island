@@ -1,0 +1,13 @@
+.shadow-custom{
+    box-shadow: 0 4px 8px rgba(248, 249, 250, 0.2);
+}
+.two-line-heading {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: 1.5; /* Adjust the line-height as necessary */
+    height: 3em; /* 2 * line-height */
+}

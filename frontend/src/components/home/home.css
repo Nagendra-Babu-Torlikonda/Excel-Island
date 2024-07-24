@@ -1,0 +1,40 @@
+.hero .row {
+    min-height: 100vh;
+    height: 100%;
+  }
+  
+  .hero h2, .hero p {
+    color: #fff;
+  }
+  
+  .hero h2 {
+    margin-bottom: 16px;
+  }
+  
+  .buttons {
+    margin-top: 25px;
+  }
+  
+  .btn-custom {
+    padding: 14px 26px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-custom {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .btn-outline-custom:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .curveImg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+  }

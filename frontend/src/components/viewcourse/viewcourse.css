@@ -1,0 +1,23 @@
+.contents{
+    height: 60vh;
+    overflow-y: scroll;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 -4px 8px rgba(0, 0, 0, 0.1), 4px 0 8px rgba(0, 0, 0, 0.1), -4px 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.contents ul{
+    margin: 10px;
+}
+
+.relevant-courses{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 -4px 8px rgba(0, 0, 0, 0.1), 4px 0 8px rgba(0, 0, 0, 0.1), -4px 0 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem; /* Add padding for better spacing */
+    border-radius: 0.25rem;
+}
+
+.content-item{
+    cursor: pointer;
+    background-color: aliceblue;
+}

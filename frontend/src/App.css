@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  margin-left: 220px;
+}
+
+@media (max-width: 768px) {
+  .content{
+    margin-left: 0;
+  }
+}

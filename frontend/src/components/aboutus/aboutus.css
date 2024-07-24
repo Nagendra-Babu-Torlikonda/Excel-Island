@@ -1,0 +1,29 @@
+
+.about-section {
+    text-align: center;
+  }
+  
+  .about-box{
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+  }
+  .title {
+    color: grey;
+  }
+  
+  .btn-dark {
+    width: 100%;
+  }
+  
+  .btn-dark:hover {
+    background-color: #555;
+  }
+
+  .card:hover{
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  
